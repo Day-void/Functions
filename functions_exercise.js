@@ -19,28 +19,28 @@
 // //	true
 // console.log(isEnoughPizza(10,	4));
 
-// Function Expressions
+// // Function Expressions
 
-const greetGuest = function(name) {
-  return `Welcome to movie night, ${name}!`;
-};
+// const greetGuest = function(name) {
+//   return `Welcome to movie night, ${name}!`;
+// };
 
-const calculateTotalSnacks = function(numGuests, snacksPerGuest) {
-  return numGuests * 2;
-};
+// const calculateTotalSnacks = function(numGuests, snacksPerGuest) {
+//   return numGuests * 2;
+// };
 
-const isEnoughPizza = function(numSlices, numGuests) {
-  return numSlices >= numGuests * 3;
-};
+// const isEnoughPizza = function(numSlices, numGuests) {
+//   return numSlices >= numGuests * 3;
+// };
 
 // Arrow Functions
 
 
-// const greetGuest = (name) => `Welcome to movie night, ${name}!`;
+const greetGuest = (name) => `Welcome to movie night, ${name}!`;
 
-// const calculateTotalSnacks = (numGuests, snacksPerGuest) => numGuests * 2;
+const calculateTotalSnacks = (numGuests, snacksPerGuest) => numGuests * 2;
 
-// const isEnoughPizza = (numSlices, numGuests) => numSlices >= numGuests * 3;
+const isEnoughPizza = (numSlices, numGuests) => numSlices >= numGuests * 3;
 
 console.log(greetGuest("Sam"));							
 //	"Welcome	to	movie	night,	Sam!"
