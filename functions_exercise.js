@@ -1,3 +1,5 @@
+// Functions Declaration
+
 function greetGuest(name) {
   return `Welcome to movie night, ${name}!`;
 }
