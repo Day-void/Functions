@@ -41,3 +41,10 @@ const greetGuest = (name) => `Welcome to movie night, ${name}!`;
 const calculateTotalSnacks = (numGuests, snacksPerGuest) => numGuests * 2;
 
 const isEnoughPizza = (numSlices, numGuests) => numSlices >= numGuests * 3;
+
+console.log(greetGuest("Sam"));							
+//	"Welcome	to	movie	night,	Sam!"
+console.log(calculateTotalSnacks(4));	//	8
+console.log(isEnoughPizza(12,	4));				
+//	true
+console.log(isEnoughPizza(10,	4));
